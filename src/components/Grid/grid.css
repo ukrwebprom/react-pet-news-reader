@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    width:100%;
+    margin-top: 100px;
+    padding:0;
+}
+.item {
+    display:flex;
+    flex-direction: column;
+    margin-bottom:15px;
+}
+.item a {
+    font-size:19px;
+}
+.item .author {
+    font-size:14px;
+}
+.item span {
+    font-weight:600;
+}

@@ -1,0 +1,36 @@
+.form {
+    display:flex;
+    align-items: center;
+}
+.field {
+    padding-left:25px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 25px;
+    border:0;
+    outline:none;
+    height:40px;
+    width:350px;
+    box-shadow: 2px 2px 5px 3px rgb(0,0,0, 0.1);
+}
+
+.button {
+    width:20px;
+    height:20px;
+    position: relative;
+    left: -35px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    border:0;
+    background-color: transparent;
+    cursor:pointer;
+}
+.icon {
+    color:#222;
+}
+.icon:hover {
+    color:darkcyan;
+}
